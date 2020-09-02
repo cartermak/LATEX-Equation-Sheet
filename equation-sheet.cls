@@ -21,7 +21,6 @@
 \RequirePackage{float}
 \RequirePackage{amssymb}
 \RequirePackage{setspace}
-\RequirePackage{sectsty}
 \RequirePackage{url}
 \RequirePackage{wrapfig}
 \RequirePackage{appendix}
