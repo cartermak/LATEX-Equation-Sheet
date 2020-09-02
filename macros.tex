@@ -1,0 +1,23 @@
+% Define macros
+
+% Section break
+\newcommand{\secbreak}{\hrule \vspace{1em}}
+
+% Remove whitespace
+\newcommand{\cutspace}{\vspace{-1.5em}}
+
+% Add whitespace
+\newcommand{\sepspace}{\vspace{0.75em}}
+
+% Format number in scientific notation
+% 
+% Arguments:
+%   1: Decimal value
+%   2: Exponent
+\newcommand{\scinote}[2]{#1 \, \text{x} \, 10^{#2}}
+
+% Format a derivative (first arg w.r.t. second arg)
+\newcommand{\deriv}[2]{\dfrac{\mathrm{d}#1}{\mathrm{d}#2}}
+
+% Format a partial derivative (first arg w.r.t. second arg)
+\newcommand{\pdv}[2]{\frac {\partial #1}{\partial #2}}
