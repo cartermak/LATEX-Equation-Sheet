@@ -32,6 +32,7 @@
 \RequirePackage{colortbl}
 \RequirePackage{multicol}
 \RequirePackage{enumitem}
+\RequirePackage{mdsymbol}
 
 % Page formatting
 \setlength{\columnseprule}{1pt}
