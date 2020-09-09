@@ -19,5 +19,9 @@ I've also included a `macros.tex` file where shortcuts can be defined. To use th
 | `\cutspace` | Removes whitespace                    | N/A                                                  |
 | `\sepspace` | Adds whitespace                       | N/A                                                  |
 | `\scinote`  | Formats number in scientific notation | `\scinote{<Decimal number>}{<Exponent>}`             |
+| `\dvar`     | Stylized "d" for integrals            | N/A                                                  |
 | `\deriv`    | Format a derivative                   | `\deriv{<Numerator variable>}{Denominator variable}` |
 | `\pdv`      | Format a partial derivative           | `\deriv{<Numerator variable>}{Denominator variable}` |
+| `\ihat`     | Stylized "i" for unit vectors         | N/A                                                  |
+| `\jhat`     | Stylized "j" for unit vectors         | N/A                                                  |
+| `\khat`     | Stylized "k" for unit vectors         | N/A                                                  |
