@@ -1,0 +1,72 @@
+\documentclass{equation-sheet}
+\input{macros}
+
+\begin{document}
+
+\subsection*{Exam 1 Material}
+Coulombic attraction:
+\begin{equation*}
+	\begin{aligned}[l]
+		F_c &= \frac{-k}{a^2} \\
+	\end{aligned} 
+	\qquad \qquad
+	\begin{aligned}[r]
+	    a &= \text{Separation distance} \\
+		k &= k_0 q^2 \cdot z_1 \cdot z_2 \\
+		k_0 &= \scinote{9}{9} \, V m C^{-1} \\
+		q &= \scinote{1.6}{-19} C \\
+		z &= \text{particle charge} \\
+		& \text{(e.g. +1, -1)}
+	\end{aligned}
+\end{equation*}
+
+\begin{equation*}
+    \begin{aligned}
+        F &= \deriv{E}{a}
+    \end{aligned}
+    \qquad \qquad
+    \begin{aligned}
+        F &= \text{Bonding force} \\
+        E &= \text{Bonding energy}
+    \end{aligned}
+\end{equation*}
+\noindent Thus, zero force occurs at minimum bonding energy.
+\sepspace
+
+\secbreak
+
+\subsubsection*{Crystal Structures}
+
+\begin{itemize}
+    \item Lattice direction ex: $[3 \bar 1 5]$
+    \item Family of lattice directions: structurally identical, only differ by basis vectors
+    \item Cubic system ex: Cubic$<100>=[100],\, [0 \bar 1 0],$ etc...
+    \item Lattice planes: measured by normal vectors, a.k.a. intercepts$^{-1}$
+    \item Lattice plane family: All have same planar density
+    \item Linear/planar density: \# of atoms centered on a line/ plane per unit length/area
+\end{itemize}
+
+\begin{equation*}
+    \text{Theoretical density: } \rho = \frac{nA}{V_c N_A} 
+\end{equation*}
+\cutspace
+\begin{align*}
+    n&= \text{Atoms/unit cell} \\
+    A &= \text{Atomic weight }(amu) \\
+    V_c &= \text{Volume of unit cell }(m^3) \\
+    N_A &= \text{Avogadro's number }(atoms/mol)
+\end{align*}
+
+\begin{tabular}{|c|c|c|c|}
+\hline
+Structure & $a$ vs. $r$ & APF & Atoms/Cell \\
+\hline
+bcc & $a = \frac{4r}{\sqrt{3}}$ & 0.68 & 2 \\
+\hline
+fcc & $a = \frac{4r}{\sqrt{2}}$ & 0.74 & 4 \\
+\hline
+hcp & $a = \sqrt{2r}$ & 0.74 & 6 \\
+\hline
+\end{tabular}
+
+\end{document}
