@@ -38,3 +38,4 @@
 \setlength{\columnseprule}{1pt}
 \AtBeginDocument{\begin{multicols}{2}}
 \AtEndDocument{\end{multicols}}
+\setlength{\parindent}{0pt}
