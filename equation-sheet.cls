@@ -34,6 +34,9 @@
 \RequirePackage{enumitem}
 \RequirePackage{mdsymbol}
 
+% Disable section numbering
+\renewcommand{\@seccntformat}[1]{}
+
 % Page formatting
 \setlength{\columnseprule}{1pt}
 \AtBeginDocument{\begin{multicols}{2}}
