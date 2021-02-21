@@ -42,3 +42,14 @@
 \AtBeginDocument{\begin{multicols}{2}}
 \AtEndDocument{\end{multicols}}
 \setlength{\parindent}{0pt}
+
+% Title block formatting
+\renewcommand{\maketitle}{%
+    \footnotesize{
+        \flushright{
+            \textit{\@author}\\
+            \textit{\@title}\\
+            \textit{\@date}\\
+        }
+    }
+}
